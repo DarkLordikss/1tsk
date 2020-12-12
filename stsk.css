@@ -9,14 +9,17 @@
     margin-right: 100px;
     margin-top: 0px;
     padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 header {
+    z-index: 100;
+    position: fixed;
     background-color: green;
     background-size: 100%;
     margin-bottom: 0px;
+    width: 100%;
 }
 
 ul {
@@ -37,6 +40,10 @@ h2 {
 }
 
 footer {
+    z-index: 100;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
     background-color: green;
     background-size: 100%;
     margin-bottom: 0px;
